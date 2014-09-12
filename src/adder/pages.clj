@@ -20,7 +20,6 @@
   (:use compojure.core 
         [hiccup core form page element]
         [adder.PageParser]
-        [adder.reorder]
         [adder.dbManagement]
         [adder.image-reader]
 		[adder.middleware])
